@@ -151,3 +151,24 @@ button:hover {
     color: #809D3C;
 }
 
+@media (max-width: 480px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardi {
+        height: 100%;
+        padding-bottom: 30px;
+        text-align: justify;
+    }
+
+    .cardi ::after {
+        display: none;
+    }
+    
+    .more button {
+        padding: 4px 22%;
+        margin-bottom: 20px;
+    }
+}
